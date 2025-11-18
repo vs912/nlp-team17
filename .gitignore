@@ -44,11 +44,19 @@ Thumbs.db
 
 # Data files
 data_proc/
-*.csv
+data_raw/
 *.json
 *.xlsx
 *.db
 *.sqlite3
+*.npz
+
+# Models and Embeddings
+models/
+glove/
+
+# Generated Notebooks
+*_output.ipynb
 
 # Logs
 logs/
