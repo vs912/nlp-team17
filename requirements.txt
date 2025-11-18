@@ -6,4 +6,9 @@ matplotlib>=3.4.2
 seaborn>=0.11.1
 nltk>=3.6.2
 spacy>=3.1.0
+# TensorFlow for Linux/Windows; macOS uses the apple-specific package
+tensorflow==2.20.0 ; sys_platform != "darwin"
+tensorflow-macos==2.16.2 ; sys_platform == "darwin"
+tensorflow-metal>=0.8.0 ; sys_platform == "darwin"
+h5py>=3.11.0
 # Add other dependencies as needed
