@@ -10,7 +10,9 @@ seaborn
 # NLP
 nltk
 
-# Deep Learning
+# Deep Learning / Transformers
+torch
+transformers
 tensorflow
 
 # Notebook environment
