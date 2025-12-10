@@ -52,7 +52,12 @@ data_raw/
 *.npz
 
 # Models and Embeddings
-models/
+# Ignore large/binary model files but keep text reports under models/
+models/*.bin
+models/*.pt
+models/*.joblib
+models/*.h5
+models/*.hdf5
 glove/
 
 # Generated Notebooks

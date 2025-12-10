@@ -13,6 +13,7 @@ nltk
 # Deep Learning / Transformers
 torch
 transformers
+torchcrf
 tensorflow
 
 # Notebook environment
